@@ -1,0 +1,4 @@
+Cosa manca nel sito:
+- Foto
+- Pagine con redirect
+- Come faccio a fare una build per pusharla su github e deployarla su vercel?

@@ -30,17 +30,6 @@ export default function SocialPage() {
                 </a>
               </article>
               <article className="social-card">
-                <span className="social-icon" aria-hidden="true">💬</span>
-                <h3>Discord</h3>
-                <p>
-                  Un luogo dove chiacchierare di tecnologia, informatica e interessi comuni.
-                  Passa a salutare o unisciti alle discussioni!
-                </p>
-                <a className="button" href="https://discord.gg/Aqh77fz" target="_blank" rel="noopener noreferrer">
-                  Entra nel server
-                </a>
-              </article>
-              <article className="social-card">
                 <span className="social-icon" aria-hidden="true">💻</span>
                 <h3>GitHub</h3>
                 <p>

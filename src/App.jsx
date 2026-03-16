@@ -41,16 +41,6 @@ function AppLayout() {
       icon: <span style={{ fontSize: '1.4rem' }}>🖥️</span>,
       label: 'PC',
       onClick: () => navigate('/pc')
-    },
-    {
-      icon: <span style={{ fontSize: '1.4rem' }}>📸</span>,
-      label: 'Instagram',
-      onClick: () => window.open('https://instagram.com/tommy.spadaa', '_blank')
-    },
-    {
-      icon: <span style={{ fontSize: '1.4rem' }}>💬</span>,
-      label: 'Discord',
-      onClick: () => window.open('https://discord.gg/Aqh77fz', '_blank')
     }
   ];
 
@@ -124,7 +114,7 @@ function AppLayout() {
         onLogoClick={() => navigate('/')}
         logoSrc="/images/logo.png"
         logoContent={
-          <span style={{ fontWeight: 700, fontSize: '0.9rem', color: '#111' }}>
+          <span style={{ fontWeight: 700, fontSize: '0.9rem', color: '#f0f0f5' }}>
             Tommaso Spada
           </span>
         }

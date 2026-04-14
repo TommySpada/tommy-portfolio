@@ -406,6 +406,69 @@ h2 {
   word-break: break-all;
 }
 
+/* Mobile: trasforma la tabella in card impilate */
+@media (max-width: 600px) {
+  .table-wrapper {
+    border: none;
+    background: transparent;
+  }
+
+  .table,
+  .table thead,
+  .table tbody,
+  .table th,
+  .table td,
+  .table tr {
+    display: block;
+  }
+
+  /* Nascondi l'intestazione */
+  .table thead {
+    display: none;
+  }
+
+  /* Ogni riga diventa una card */
+  .table tbody tr {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    overflow: hidden;
+  }
+
+  .table tbody tr:last-child {
+    margin-bottom: 0;
+  }
+
+  .table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 0.875rem;
+  }
+
+  .table td:last-child {
+    border-bottom: none;
+  }
+
+  /* Label a sinistra dal data-label */
+  .table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding-top: 0.1rem;
+  }
+}
+
 /* ===== CONTACT ===== */
 .contact-card {
   max-width: 600px;

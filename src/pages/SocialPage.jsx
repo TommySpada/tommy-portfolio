@@ -85,26 +85,26 @@ export default function SocialPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Amazon</td>
-                    <td>
+                    <td data-label="Affiliato">Amazon</td>
+                    <td data-label="Link">
                       <a href="https://amzn.to/3sk5AnF" target="_blank" rel="noopener noreferrer">
                         amzn.to/3sk5AnF
                       </a>
                     </td>
-                    <td>Ricevo una commissione sugli acquisti effettuati.</td>
-                    <td>26 agosto 2023</td>
+                    <td data-label="Benefici">Ricevo una commissione sugli acquisti effettuati.</td>
+                    <td data-label="Attivo dal">26 agosto 2023</td>
                   </tr>
                   <tr>
-                    <td>Instant Gaming</td>
-                    <td>
+                    <td data-label="Affiliato">Instant Gaming</td>
+                    <td data-label="Link">
                       <a href="https://www.instant-gaming.com/?igr=TommyPlaysGames" target="_blank" rel="noopener noreferrer">
                         instant-gaming.com
                       </a>
                     </td>
-                    <td>
+                    <td data-label="Benefici">
                       Sconti su giochi digitali e una quota riconosciuta al creator.
                     </td>
-                    <td>26 agosto 2023</td>
+                    <td data-label="Attivo dal">26 agosto 2023</td>
                   </tr>
                 </tbody>
               </table>

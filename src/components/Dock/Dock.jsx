@@ -27,9 +27,12 @@ function DockItem({ children, className = '', onClick, mouseX, spring, distance,
       }}
       onHoverStart={() => isHovered.set(1)}
       onHoverEnd={() => isHovered.set(0)}
-      onFocus={() => isHovered.set(1)}
-      onBlur={() => isHovered.set(0)}
-      onClick={onClick}
+      onPointerDown={() => isHovered.set(1)}
+      onPointerUp={() => {
+        isHovered.set(0);
+        if (onClick) onClick();
+      }}
+      onPointerLeave={() => isHovered.set(0)}
       className={`dock-item ${className}`}
       tabIndex={0}
       role="button"
@@ -102,6 +105,10 @@ export default function Dock({
           mouseX.set(pageX);
         }}
         onMouseLeave={() => {
+          isHovered.set(0);
+          mouseX.set(Infinity);
+        }}
+        onPointerLeave={() => {
           isHovered.set(0);
           mouseX.set(Infinity);
         }}

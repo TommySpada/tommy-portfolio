@@ -216,7 +216,10 @@ h2 {
 .section {
   padding: 5rem 0;
   position: relative;
+  scroll-margin-top: 5rem; /* anchor links clear the navbar */
 }
+
+/* First section on pages without a hero clears the fixed navbar — mobile only */
 
 .section:nth-child(even) {
   background-color: var(--bg-secondary);
@@ -575,7 +578,12 @@ h2 {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .hero {
-    padding: 4rem 0 3rem;
+    padding: 8rem 0 3rem; /* extra top room for mobile navbar */
+  }
+
+  /* Pages without hero: first section clears the fixed navbar */
+  .main-content > .section:first-child {
+    padding-top: 8rem;
   }
 
   .hero-content {

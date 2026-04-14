@@ -21,10 +21,10 @@ export default function HomePage() {
   }, []);
 
   const bounceImages = [
-    '/images/placeholder.jpg',
-    '/images/placeholder.jpg',
-    '/images/placeholder.jpg',
-    '/images/placeholder.jpg',
+    '/images/postazione.jpeg',
+    '/images/hardware.jpeg',
+    '/images/codestack.png',
+    '/images/code.png',
   ];
 
   return (
@@ -69,7 +69,7 @@ export default function HomePage() {
             </FadeContent>
           </div>
           <FadeContent blur duration={1000} delay={600} className="avatar">
-            <img src="/images/placeholder.jpg" alt="Tommaso Spada" />
+            <img src="/images/profile.jpeg" alt="Tommaso Spada" />
           </FadeContent>
         </div>
       </section>
@@ -120,7 +120,10 @@ export default function HomePage() {
           <FadeContent blur duration={800} delay={200}>
             <ul className="skills-list">
               <li>
-                Linguaggi: C, C++, C#, Python, Java; basi di web (HTML, CSS, JavaScript)
+                Linguaggi: C, C++, C#, Python, Java; basi di web (HTML, CSS, JavaScript, PHP, React)
+              </li>
+              <li>
+                Basi di dati: SQL, MySQL, MariaDB, MongoDB
               </li>
               <li>
                 Paradigmi e strumenti: OOP, Git e GitHub, Azure DevOps
@@ -128,8 +131,12 @@ export default function HomePage() {
               <li>
                 IDE: Visual Studio Code, Visual Studio 2022, JetBrains Suite
               </li>
-              <li>Hardware: assemblaggio, diagnosi e upgrade PC</li>
-              <li>Virtualizzazione: VMware, VirtualBox e Windows Sandbox</li>
+              <li>
+                Hardware: assemblaggio, diagnosi e upgrade PC
+              </li>
+              <li>
+                Virtualizzazione: VMware, VirtualBox e Windows Sandbox
+              </li>
               <li>
                 Produttività: Microsoft Office (Word, Excel, PowerPoint, Access)
               </li>

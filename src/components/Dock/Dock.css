@@ -64,3 +64,11 @@
   color: #fff;
   transform: translateX(-50%);
 }
+
+@media (max-width: 480px) {
+  .dock-panel {
+    gap: 0.5rem;
+    padding: 0 0.25rem 0.4rem;
+    max-width: calc(100vw - 2rem);
+  }
+}

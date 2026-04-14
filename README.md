@@ -1,4 +1,4 @@
-# 🌐 Tommaso Spada — Portfolio
+# Tommaso Spada — Portfolio
 
 Sito web personale costruito con **React** e **Vite**, con animazioni e componenti interattivi da [reactbits.dev](https://reactbits.dev).
 
@@ -6,19 +6,19 @@ Sito web personale costruito con **React** e **Vite**, con animazioni e componen
 
 ---
 
-## ✨ Caratteristiche
+## Caratteristiche
 
-- ⚡ **Vite + React 19** — bundling ultrarapido e HMR istantaneo
-- 🎨 **Dark theme** con design system custom (CSS vanilla, nessun framework)
-- 🌊 **Aurora** — sfondo WebGL animato con shader (OGL)
-- 🪄 **FadeContent** — animazioni fade-in su scroll (GSAP + ScrollTrigger)
-- 🫧 **BubbleMenu** — menu a bolle animato con GSAP
-- 🧲 **Dock** — dock macOS-style con effetto magnification (Motion)
-- 🃏 **BounceCards** — card animate con effetto bounce (GSAP)
-- 📱 **Responsive** — layout mobile-first con breakpoint adattivi
-- 🍪 **Iubenda** — cookie consent integrato
+- **Vite + React 19** — bundling ultrarapido e HMR istantaneo
+- **Dark theme** con design system custom (CSS vanilla, nessun framework)
+- **Aurora** — sfondo WebGL animato con shader (OGL)
+- **FadeContent** — animazioni fade-in su scroll (GSAP + ScrollTrigger)
+- **BubbleMenu** — menu a bolle animato con GSAP
+- **Dock** — dock macOS-style con effetto magnification (Motion)
+- **BounceCards** — card animate con effetto bounce (GSAP)
+- **Responsive** — layout mobile-first con breakpoint adattivi
+- **Iubenda** — cookie consent integrato
 
-## 📄 Pagine
+## Pagine
 
 | Pagina | Route | Descrizione |
 |--------|-------|-------------|
@@ -26,9 +26,8 @@ Sito web personale costruito con **React** e **Vite**, con animazioni e componen
 | **Social** | `/social` | Link social, community e affiliazioni |
 | **Contatti** | `/contatti` | Email con copia negli appunti |
 | **PC** | `/pc` | Setup hardware con schede componenti |
-|
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tecnologia | Utilizzo |
 |------------|----------|
@@ -39,7 +38,7 @@ Sito web personale costruito con **React** e **Vite**, con animazioni e componen
 | [Motion](https://motion.dev) | Dock con magnification |
 | [OGL](https://github.com/oframe/ogl) | WebGL shader (Aurora) |
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clona il repository
@@ -55,7 +54,7 @@ npm run dev
 
 Il sito sarà disponibile su `http://localhost:5173`.
 
-## 📦 Build per produzione
+## Build per produzione
 
 ```bash
 npm run build
@@ -64,7 +63,7 @@ npm run preview   # anteprima locale della build
 
 I file compilati saranno nella cartella `dist/`.
 
-## 📁 Struttura progetto
+## Struttura progetto
 
 ```
 src/
@@ -86,7 +85,7 @@ src/
 └── index.css            # Design system e stili globali
 ```
 
-## 📜 Licenza
+## Licenza
 
 © Tommaso Spada. Tutti i diritti riservati.
 

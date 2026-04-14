@@ -26,7 +26,6 @@ Sito web personale costruito con **React** e **Vite**, con animazioni e componen
 | **Social** | `/social` | Link social, community e affiliazioni |
 | **Contatti** | `/contatti` | Email con copia negli appunti |
 | **PC** | `/pc` | Setup hardware con schede componenti |
-|
 
 ## Tech Stack
 

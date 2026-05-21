@@ -5,7 +5,7 @@ import BounceCards from '../components/BounceCards/BounceCards';
 import { Link } from 'react-router-dom';
 
 function getAge() {
-  const birth = new Date(2006, 4, 30);
+  const birth = new Date(2006, 3, 30);
   const today = new Date();
   let age = today.getFullYear() - birth.getFullYear();
   const m = today.getMonth() - birth.getMonth();

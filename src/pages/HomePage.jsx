@@ -42,7 +42,7 @@ export default function HomePage() {
         <div className="container content hero-content">
           <div className="intro">
             <FadeContent blur duration={800} delay={200}>
-              <span className="badge">Studente di informatica</span>
+              <span className="badge">Aspirante sviluppatore junior</span>
             </FadeContent>
             <FadeContent blur duration={800} delay={400}>
               <h1>Tommaso Spada</h1>
@@ -52,7 +52,7 @@ export default function HomePage() {
             </FadeContent>
             <FadeContent blur duration={800} delay={800}>
               <p>
-                Ho {eta} anni e frequento l'ITIS "Mario Delpozzo" di Cuneo. Sono orientato ai
+                Ho {eta} anni e sono diplomato in Informatica e Telecomunicazioni presso l'ITIS "Mario Delpozzo" di Cuneo. Sono orientato ai
                 risultati e motivato a trasformare idee in soluzioni concrete: sperimento con il
                 codice, assemblo e diagnostico PC, approfondisco strumenti e metodologie per
                 crescere in ambito IT.
@@ -82,7 +82,7 @@ export default function HomePage() {
               <span className="badge">Percorso</span>
               <h2 className="section-title">Formazione</h2>
               <p className="section-subtitle">
-                Studio informatica all'ITIS "Mario Delpozzo" di Cuneo dal 2020. Gli anni
+                Mi sono diplomato in Informatica e Telecomunicazioni presso l'ITIS "Mario Delpozzo" di Cuneo. Gli anni
                 vissuti tra laboratori, progetti e lavoro di squadra mi hanno insegnato a
                 pensare in modo analitico, a comunicare con chiarezza e a cercare sempre la
                 soluzione più efficace.
@@ -92,7 +92,7 @@ export default function HomePage() {
           <FadeContent blur duration={800} delay={200}>
             <ul className="skills-list">
               <li>
-                Percorso di studi in Informatica all'ITIS "Mario Delpozzo" (2020 - oggi)
+                Diploma di Maturità in Informatica e Telecomunicazioni presso l'ITIS "Mario Delpozzo" con voto 76/100 (2020 - 2026)
               </li>
               <li>Approccio pratico e laboratoriale a hardware e software</li>
               <li>
@@ -179,8 +179,8 @@ export default function HomePage() {
               <article className="card">
                 <h3>Percorso di studi</h3>
                 <p>
-                  Dal 2020 frequento l'ITIS "Mario Delpozzo" (indirizzo Informatica e
-                  Telecomunicazioni). Ho svolto attività in ambito sviluppo software e
+                  Ho frequentato l'ITIS "Mario Delpozzo" (indirizzo Informatica e
+                  Telecomunicazioni), conseguendo il diploma nel 2026. Ho svolto attività in ambito sviluppo software e
                   sistemi, con attenzione a analisi, risoluzione problemi e collaborazione
                   in team.
                 </p>

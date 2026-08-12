@@ -7,6 +7,8 @@ import ContattiPage from './pages/ContattiPage';
 import PCPage from './pages/PCPage';
 import ClockPage from './pages/ClockPage';
 import TurniPage from './pages/TurniPage';
+import NotFoundPage from './pages/NotFoundPage';
+
 import { useEffect, useRef } from 'react';
 
 function ScrollToTop() {
@@ -128,6 +130,7 @@ function AppLayout() {
           <Route path="/pc" element={<PCPage />} />
           <Route path="/clock" element={<ClockPage />} />
           <Route path="/turni" element={<TurniPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
       <footer className="footer">
